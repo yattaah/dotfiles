@@ -14,7 +14,7 @@
 
 
 #workspaces{
-  /* border-radius:5px; */
+  border-radius:5px;
   box-shadow:0px 0px black;
 }
 
@@ -59,6 +59,14 @@
 #battery,
 #custom-notification{
   border-radius: 5px;
+}
+
+#workspaces button.active {
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    color: #afbac6;
+    border-bottom: 1px solid #afbac6;
+    transition-property: border-bottom;
+    transition-duration: 1s;
 }
 
 #idle_inhibitor.activated{
