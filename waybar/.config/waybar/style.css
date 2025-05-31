@@ -13,10 +13,10 @@
 }
 
 
-#workspaces{
+/* #workspaces{
   border-radius:5px;
   box-shadow:0px 0px black;
-}
+} */
 
 #workspaces,
 #network,
@@ -51,7 +51,7 @@
   border-radius: 0px 5px 5px 0px;
 }
 
-#idle_inhibitor,
+/* #idle_inhibitor,
 #clock,
 #workspaces,
 #custom-lizzy,
@@ -59,14 +59,12 @@
 #battery,
 #custom-notification{
   border-radius: 5px;
-}
+} */
 
 #workspaces button.active {
     /* background-color: rgba(0, 0, 0, 0.3); */
     color: #afbac6;
-    border-bottom: 1px solid #afbac6;
-    transition-property: border-bottom;
-    transition-duration: 1s;
+    border-bottom: 2px solid #afbac6;
 }
 
 #idle_inhibitor.activated{

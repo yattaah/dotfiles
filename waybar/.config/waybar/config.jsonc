@@ -11,6 +11,7 @@
 	"modules-left":["hyprland/workspaces","custom/lizzy"],
 	"modules-center":["hyprland/window"],
 	"modules-right":[
+		"tray",
 		"custom/notification",
 		// "idle_inhibitor",
 		"network",
