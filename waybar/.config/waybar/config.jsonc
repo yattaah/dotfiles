@@ -1,6 +1,7 @@
 {
 	"layer":"top",
 	"position":"top",
+	"output": ["DP-1"],
 	"reload_style_on_change":true,
 		
 	"height":30,
@@ -123,7 +124,7 @@
         ]
     },
     "bluetooth":{
-    	"format-on": "<span color='#e57474'></span>  Turned On",
+    	"format-on": "<span color='#67b0e8'></span>  Turned On",
     	"format-off": "<span color='#e57474'></span>  Turned Off",
     	"format-disabled": "<span color='#e57474'></span>  Disabled",
     	"format-connected": "<span color='#e57474'></span> Connected",
