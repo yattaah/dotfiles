@@ -79,7 +79,7 @@
 			"on-click": "pavucontrol",
 		    "on-click-right": "amixer sset Master toggle 1>/dev/null",
 		    "format": "<span foreground='#e5c76b'>{icon}</span>  {volume}%",
-		    "format-muted": "<span foreground='#e5c76b'></span>  Muted",
+		    "format-muted": "<span foreground='#e5c76b'></span>  Muted",
 		    "format-icons": {
 		        "headphone": " ",
 		        "hands-free": " ",
@@ -93,11 +93,11 @@
         
     "network": {
         "format-wifi": "<span color='#67b0e8'></span>   {essid}  ",
-        "format-ethernet": "<span color='#aab0e8'></span>   {ipaddr}",
+        "format-ethernet": "<span color='#aab0e8'>󰈀</span>   {ipaddr}",
         "format-linked": "<span color='#67b0e8'></span>  {ifname} (No IP)",
         "format": "<span color='#67b0e8'></span>  Connected",
         "format-disconnected": "<span color='#67b0e8'></span>  Disconnected",
-        "interval": 60,
+        "interval": 60
 
         // "on-click":"~/.config/scripts//rofi-wifi-menu.sh"
     },
