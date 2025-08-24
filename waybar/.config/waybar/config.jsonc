@@ -12,13 +12,13 @@
 	"modules-center":["hyprland/window"],
 	"modules-right":[
 		"tray",
-		"custom/notification",
 		// "idle_inhibitor",
 		"network",
 		"bluetooth",
 		"wireplumber",
-    "clock",
+    	"clock",
 		"clock#time",
+		"custom/notification",
 		"custom/power"
 		],
 		
@@ -40,20 +40,21 @@
 		    "on-scroll-up": "hyprctl dispatch workspace e+1 1>/dev/null",
 		    "on-scroll-down": "hyprctl dispatch workspace e-1 1>/dev/null",
 		    "sort-by-number": true,
-		    "active-only": false,
+		    "active-only": false
     },
     "custom/lizzy": {
 		"format": "<span color='#25be6a'>{icon}</span>  {}",
-		"exec": "lizzy --format ' {{title}} - {{artist}}' --autotoggle --mediaplayer spotify",
+		// "exec": "lizzy --format ' {{title}} - {{artist}}' --autotoggle --mediaplayer com.mastermindzh.tidal-hifi",
+		"exec": "lizzy --format ' {{title}} - {{artist}}'",
 		"return-type": "json",
 		"format-icons": {
 		  "Playing": "",
 		  "Paused": ""
 		},
 		"max-length": 45,
-		"on-click":"playerctl --player=spotify play-pause",
-		"on-scroll-up":"playerctl --player=spotify next",
-		"on-scroll-down":"playerctl --player=spotify previous"
+		"on-click":"playerctl --player=com.mastermindzh.tidal-hifi play-pause",
+		// "on-scroll-up":"playerctl --player=com.mastermindzh.tidal-hifi next",
+		// "on-scroll-down":"playerctl --player=com.mastermindzh.tidal-hifi previous"
 	},
 	
 	"backlight":{
@@ -85,7 +86,7 @@
 		        "portable": " ",
 		        "car": " ",
 		        "default": [" ", " ", " "]
-		    },
+		    }
 		},
         
     "network": {
@@ -127,7 +128,8 @@
     	"format-disabled": "<span color='#e57474'></span>  Disabled",
     	"format-connected": "<span color='#e57474'></span> Connected",
     	"format": "<span color='#e57474'></span> Disabled",
-    	"on-click":"blueman-manager &"
+    	"on-click":"./.config/scripts/bluetooth-toggle.sh ",
+		"on-click-right": "blueman-manager &"
     },
     
     "custom/power":{
@@ -138,6 +140,12 @@
     "custom/notification":{
     	"format": "󱅫",
     	"on-click": "swaync-client -t -sw"
-    }
+    },
+	"tray":{
+		"icon-size": 20,
+		"spacing": 15
+	}
+
+	
     
 }
