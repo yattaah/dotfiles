@@ -1,6 +1,6 @@
 *{
   font-size: 14px;
-  font-family: "IBM Plex Sans Bold";
+  /* font-family: "IBM Plex Sans Bold"; */
   color: #dadada;
   min-height: 0;
 }
@@ -35,6 +35,11 @@
   border-radius:5px 0px 0px 5px;
   padding-left:10px;
   padding-right: 10px;
+}
+
+#tray {
+  padding-left: 10px;
+  padding-right: 20px;
 }
 
 #network,
