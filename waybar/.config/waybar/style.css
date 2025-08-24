@@ -68,10 +68,14 @@
   border-radius: 5px;
 } */
 
+#workspaces button {
+    border-bottom: 1px solid #111111;
+}
+
 #workspaces button.active {
-    /* background-color: rgba(0, 0, 0, 0.3); */
+    /* background-color: rgba(70, 70, 70, 0.3); */
     color: #afbac6;
-    border-bottom: 2px solid #afbac6;
+    border-bottom: 1px solid #949494;
 }
 
 #idle_inhibitor.activated{
