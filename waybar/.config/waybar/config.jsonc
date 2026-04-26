@@ -14,7 +14,7 @@
 	"modules-right":[
 		"tray",
 		// "idle_inhibitor",
-		"network",
+		// "network",
 		"bluetooth",
 		"wireplumber",
     	"clock",
