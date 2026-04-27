@@ -138,7 +138,7 @@
     "custom/power":{
     	"format":"",
     	// "on-click":"~/.config/rofi/powermenu/type-4/powermenu.sh"
-		"on-click": "wlogout"
+		"on-click": "wlogout -m 400 -c 5 -r 5 -b 4"
     },
     "custom/notification":{
     	"format": "󱅫",

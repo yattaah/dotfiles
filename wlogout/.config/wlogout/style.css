@@ -1,0 +1,73 @@
+* {
+    font-family: "IBM Plex Sans Bold";
+    font-size: 16px;
+    color: #adadad;
+    box-shadow: none;
+}
+
+window {
+    background-color: transparent;
+    padding: 0px;
+}
+
+/* button {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+    transition: all 0.2s ease-in-out;
+
+    min-width: 0;
+    min-height: 0;
+    margin: 4px;
+    font-size: 10px;;
+
+    background-size: 5%;
+} */
+
+button {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+    transition: all 0.2s ease-in-out;
+    min-width: 0;
+    min-height: 0;
+    margin: 4px;
+    font-size: 10px;;
+}
+
+/* button:focus, */
+button:active,
+button:hover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    /* padding: 0 0 0 0px; */
+    /* font-weight: bold; */
+}
+
+#lock {
+    /* background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png")); */
+    background-image: image(url("/home/yattaah/.config/wlogout/icons/lock_white.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("/home/yattaah/.config/wlogout/icons/logout_white.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+/* #suspend {
+    background-image: image(url("/home/yattaah/.config/wlogout/icons/suspend_white.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+} */
+
+/* #hibernate {
+    background-image: image(url("/home/yattaah/.config/wlogout/icons/hibernate_white.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+} */
+
+#shutdown {
+    background-image: image(url("/home/yattaah/.config/wlogout/icons/shutdown_white.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/home/yattaah/.config/wlogout/icons/reboot_white.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+}
