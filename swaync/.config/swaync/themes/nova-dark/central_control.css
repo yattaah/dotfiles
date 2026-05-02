@@ -236,12 +236,12 @@ progressbar {
  
 .widget-mpris-title {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
  
 .widget-mpris-subtitle {
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 picture.mpris-background {
