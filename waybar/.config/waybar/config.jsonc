@@ -150,7 +150,7 @@
 		"spacing": 15
 	},
 	"mpris": {
-	"player": "tidal-hifi",
+	"player": "com.mastermindzh.tidal-hifi",
 	"format": "{player_icon} {artist} - {title}",
 	"format-paused": "{status_icon} <i>{artist} - {title}</i>",
 	"player-icons": {
